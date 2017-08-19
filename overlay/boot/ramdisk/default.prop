@@ -1,0 +1,33 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.usb.id.midi=90BA
+ro.usb.id.midi_adb=90BB
+ro.usb.id.mtp=2281
+ro.usb.id.mtp_adb=2282
+ro.usb.id.ptp=2284
+ro.usb.id.ptp_adb=2283
+ro.usb.id.ums=2286
+ro.usb.id.ums_adb=2285
+ro.usb.vid=2970
+ro.adb.secure=0
+ro.secure=0
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.service.adb.enable=0
+persist.sys.usb.control=disable
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Пт авг 18 11:54:06 UTC 2017
+ro.bootimage.build.date.utc=1503057246
+ro.bootimage.build.fingerprint=Wileyfox/Swift/crackling:6.0.1/MOB31K/36f1ff2871:userdebug/test-keys
+persist.sys.usb.config=mtp,adb
