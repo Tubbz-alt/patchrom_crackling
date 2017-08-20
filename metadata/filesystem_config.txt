@@ -133,6 +133,8 @@ system/app/telresources 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/app/telresources/telresources.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/webview 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/webview/webview.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/OTAUpdater 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/OTAUpdater/OTAUpdater.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/aapt 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/accelcal 0 2000 755 selabel=u:object_r:sensors_exec:s0 capabilities=0x0
