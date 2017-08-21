@@ -54,7 +54,7 @@ Then to sync up:
 
 $ repo sync
 
-$ git clone git@github.com:Wileyfox-Swift-MIUI/patchrom_crackling.git -b marshmallow crackling
+$ git clone git@github.com:Wileyfox-Swift-MIUI/patchrom_crackling.git -b marshmallow-free crackling
 
 Build
 --------
