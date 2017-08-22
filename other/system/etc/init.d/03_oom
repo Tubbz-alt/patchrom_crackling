@@ -1,0 +1,4 @@
+#!/system/bin/sh
+# Copyright (c) 2017, Stripalov. All rights reserved.
+# OOM fix for SystemUI
+echo -17 > /proc/`busybox pidof com.android.systemui`/oom_adj
