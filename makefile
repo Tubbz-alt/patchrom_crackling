@@ -63,6 +63,7 @@ local-pre-zip-misc:
 	$(hide) cp -rf stockrom/system/bin/app_process64 $(ZIP_DIR)/system/bin/app_process64
 	@echo remove unnecessary files!
 	$(hide) rm -rf $(ZIP_DIR)/system/etc/CHANGELOG-CM.txt
+	$(hide) rm -rf $(ZIP_DIR)/system/recovery-from-boot.p
 	$(hide) rm -rf $(ZIP_DIR)/system/recovery-from-boot.bak
 	$(hide) rm -rf $(ZIP_DIR)/system/media/audio/*
 	@echo use only miui sounds!
