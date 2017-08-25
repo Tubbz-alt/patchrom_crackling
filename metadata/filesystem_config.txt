@@ -141,8 +141,6 @@ system/app/GoogleCalendarSyncAdapter 0 0 755 selabel=u:object_r:system_file:s0 c
 system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GoogleContactsSyncAdapter 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/GoogleTTS 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/GoogleTTS/GoogleTTS.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/aapt 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/accelcal 0 2000 755 selabel=u:object_r:sensors_exec:s0 capabilities=0x0
@@ -2086,8 +2084,8 @@ system/priv-app/qcrilmsgtunnel 0 0 755 selabel=u:object_r:system_file:s0 capabil
 system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ConfigUpdater 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/ConfigUpdater/ConfigUpdater.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/GoogleBackupTransport 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gboard 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/Gboard/Gboard.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/GoogleFeedback 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/GoogleFeedback/GoogleFeedback.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/GoogleLoginService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
