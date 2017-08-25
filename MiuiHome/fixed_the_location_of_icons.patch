@@ -22,4 +22,4 @@ Subject: [PATCH] Fixed the location of icons
      <favorite launcher:className="com.yidian.xiaomi.ui.guide.UserGuideActivity" launcher:packageName="com.yidian.xiaomi" launcher:screen="1" launcher:x="3" launcher:y="1" />
      <favorite launcher:className="com.xiaomi.smarthome.StartupActivity" launcher:packageName="com.xiaomi.smarthome" launcher:screen="1" launcher:x="0" launcher:y="2" />
 -- 
-2.7.4
+2.14.0
