@@ -9,7 +9,6 @@ private-phone-apps := \
 	CertInstaller \
 	DocumentsUI \
 	KeyChain \
-	LatinIME \
 	LiveWallpapers \
 	PacProcessor \
 	PicoTts \
@@ -40,6 +39,5 @@ private-phone-priv-apps := \
 	Screencast \
 	SharedStorageBackup \
 	Shell \
-	Snap \
 	StatementService 
 	
