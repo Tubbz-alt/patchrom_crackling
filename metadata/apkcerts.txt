@@ -119,3 +119,4 @@ name="GooglePartnerSetup.apk" certificate="build/target/product/security/platfor
 name="GoogleServicesFramework.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="Phonesky.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="PrebuiltGmsCore.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
+name="GoogleBackupTransport.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"

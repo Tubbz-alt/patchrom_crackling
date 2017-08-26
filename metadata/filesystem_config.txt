@@ -2102,6 +2102,8 @@ system/priv-app/Phonesky 0 0 755 selabel=u:object_r:system_file:s0 capabilities=
 system/priv-app/Phonesky/Phonesky.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/PrebuiltGmsCore 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/GoogleBackupTransport 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts/lang_pico 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts/lang_pico/de-DE_gl0_sg.bin 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
