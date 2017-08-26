@@ -64,4 +64,8 @@ if [ $1 = "SecurityCenter" ];then
 	sed -i '/- 16/a\sdkInfo:\n  minSdkVersion: '\''23'\''\n  targetSdkVersion: '\''23'\''' $2/apktool.yml
 fi
 
+if [ $1 = "miuisystem" ];then
+    cp $1/crackling.xml $2/assets/device_features/
+fi
+
 ../tools/apktool --quiet b -p out/apktool -a ../tools/linux-x86/aapt SettingsMIUI-Pro -o out/ZIP/system/priv-app/SettingsMIUI-Pro/SettingsMIUI-Pro.apk
