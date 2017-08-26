@@ -56,6 +56,7 @@ fi
 
 if [ $1 = "MiuiHome" ];then
     applyPatch $1 $2
+	cp -rf apktool/27.apk out/apktool
 fi
 
 if [ $1 = "SecurityCenter" ];then
