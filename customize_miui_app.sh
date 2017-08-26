@@ -63,3 +63,5 @@ if [ $1 = "SecurityCenter" ];then
     applyPatch $1 $2
 	sed -i '/- 16/a\sdkInfo:\n  minSdkVersion: '\''23'\''\n  targetSdkVersion: '\''23'\''' $2/apktool.yml
 fi
+
+../tools/apktool --quiet b -p out/apktool -a ../tools/linux-x86/aapt SettingsMIUI-Pro -o out/ZIP/system/priv-app/SettingsMIUI-Pro/SettingsMIUI-Pro.apk

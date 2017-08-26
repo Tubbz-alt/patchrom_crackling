@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/display_settings_title">
+        <CheckBoxPreference android:title="@string/wake_when_plugged_or_unplugged_title" android:key="wake_when_plugged_or_unplugged" android:summary="@string/wake_when_plugged_or_unplugged_summary" android:defaultValue="false" />
+        <PreferenceScreen android:persistent="false" android:title="@string/live_display_title" android:key="livedisplay_settings">
+            <intent android:targetPackage="com.wuxianlin.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.wuxianlin.stocksettings.LiveDisplaySettingsActivity" />
+        </PreferenceScreen>
+        <ListPreference android:persistent="false" android:title="@string/lcd_density" android:key="lcd_density" advanced="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lights_category_title" android:key="lights_prefs">
+        <Preference android:title="@string/notification_light_title" android:key="notification_pulse">
+            <intent android:targetPackage="com.wuxianlin.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.wuxianlin.stocksettings.NotificationLightSettingsActivity" />
+        </Preference>
+        <Preference android:title="@string/battery_light_title" android:key="battery_light">
+            <intent android:targetPackage="com.wuxianlin.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.wuxianlin.stocksettings.BatteryLightSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hardware_keys_home_key_title" android:key="home_key">
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_double_tap_title" android:key="hardware_keys_home_double_tap" android:dialogTitle="@string/hardware_keys_double_tap_title" android:entryValues="@array/hardware_keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ad_blocker" android:key="ad_blocker">
+        <PreferenceScreen android:title="@string/adaway_title" android:key="adaway" android:summary="@string/adaway_summary">
+            <intent android:targetPackage="org.adaway" android:action="android.intent.action.MAIN" android:targetClass="org.adaway.ui.BaseActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

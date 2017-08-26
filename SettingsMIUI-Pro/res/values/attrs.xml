@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="min" format="float" />
+    <attr name="max" format="float" />
+    <attr name="defaultValue" format="float" />
+    <attr name="digits" format="integer" />
+</resources>

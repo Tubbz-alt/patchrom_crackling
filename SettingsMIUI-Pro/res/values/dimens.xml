@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oval_shape_height">24.0dip</dimen>
+    <dimen name="oval_shape_width">24.0dip</dimen>
+    <dimen name="oval_notification_size">26.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="fab_press_translation_z">9.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_color_setting">
+        <item>标准</item>
+        <item>鲜艳</item>
+        <item>自定义</item>
+    </string-array>
+</resources>

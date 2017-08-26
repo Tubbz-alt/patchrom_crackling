@@ -1,0 +1,118 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 7EBQfsG4Pwi5Gxj53/s2nWuTP7E=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable-xhdpi-v4/ic_settings_backup_restore.png
+SHA1-Digest: Jakt2AsiVC2vWPdEM47I/crAW4Y=
+
+Name: AndroidManifest.xml
+SHA1-Digest: zoLF01/jqse6hLyqQvTkHfx9cYU=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_add_white.png
+SHA1-Digest: 9+0/3aQQ+1bWXznxJCiDnTLj13s=
+
+Name: res/layout/display_temperature.xml
+SHA1-Digest: FP+Ufc+gLOOeLeSpSj6jZs8Qaqw=
+
+Name: res/layout/preference_application_light.xml
+SHA1-Digest: XxY1ejq4Zw++VinYiXt396LCrKE=
+
+Name: res/layout/vibrator_intensity.xml
+SHA1-Digest: vTqL5cvKmJudyyo3UQQRnSd7BTg=
+
+Name: res/drawable-mdpi-v4/nav_divider.png
+SHA1-Digest: Vtvvujam/Pc/JGCFlYP3FymBPtE=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: IrlzZgNeVQQ2aq5let21Ic1bmdc=
+
+Name: res/layout/display_picture_adjustment.xml
+SHA1-Digest: EXjKXoWaXvB0+O8whnI3xjrFWHA=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: k52IqxqjSktFhSsuXZXbTeeVOIc=
+
+Name: res/xml/livedisplay.xml
+SHA1-Digest: riBb2RV/1Yvc/xHVPhYjQpWxKZA=
+
+Name: res/layout/display_color_calibration.xml
+SHA1-Digest: k6z7jTQwMG/0eHqN0sSCrSTNzJo=
+
+Name: res/drawable/ic_settings_24dp.xml
+SHA1-Digest: HzcmNzCuIUUTgD262nNDpkCBRxE=
+
+Name: res/layout/display_gamma_calibration_item.xml
+SHA1-Digest: Fa9MYjH87dVp5msvd0+MBheFAp0=
+
+Name: res/drawable/color_tuning_preview.xml
+SHA1-Digest: xZOFXxtj+C5dS3YpZHsA6p2znqE=
+
+Name: res/layout/dialog_light_settings.xml
+SHA1-Digest: MP4dRDqAe9ul6/3ParPg3A6ujns=
+
+Name: res/drawable-mdpi-v4/ic_bt_config.png
+SHA1-Digest: JQWNXudIuBgazVBqmpjD20yZfBM=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: vC3RoQEvFmRbnPnY0518w3ysMp4=
+
+Name: res/layout/button_backlight.xml
+SHA1-Digest: fNG9+l8bW/YoFR1kZiY5bkcqpCA=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: tr6uvKJ3y1+n97Tl9YHDmWCA/a8=
+
+Name: res/layout/pulse_time_item.xml
+SHA1-Digest: s3IkPdF43ZWVyLKKyWMqPHgVIe4=
+
+Name: res/layout/preference_icon.xml
+SHA1-Digest: 7/iryTzCcakN1uQDDg30IIVi6Ew=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: Yuq0/nGOdFx56ci0qKnV+QLDrKI=
+
+Name: res/xml/battery_light_settings.xml
+SHA1-Digest: MHUZWfvaQbsVUxS27sWA0iBTe90=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: hauxs+tJdPct51hH0NkPWexZiS4=
+
+Name: res/drawable-hdpi-v4/ic_settings_backup_restore.png
+SHA1-Digest: A+Vaa+iJP5atFkrjnMUi3w7qonQ=
+
+Name: res/drawable-xhdpi-v4/ic_bt_config.png
+SHA1-Digest: B29Zn9nRpFVqorU8jVp9oyHMliI=
+
+Name: res/xml/notification_light_settings.xml
+SHA1-Digest: e6s/RidL/qkyBwljSrmKZhfTIz4=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: B5oDgL33a65EO/+y1N/iSyBN6qs=
+
+Name: res/drawable/color_temperature_preview.xml
+SHA1-Digest: NT9wAz8U/4ugjrzBmQvWINLMzrA=
+
+Name: res/drawable-hdpi-v4/nav_divider.png
+SHA1-Digest: lxqX/3D/GsSu7g/fyNy8vQgfTFE=
+
+Name: res/anim/fab_elevation.xml
+SHA1-Digest: cLGej+czs9tZOwcD6sijL1OD5YU=
+
+Name: resources.arsc
+SHA1-Digest: Zydzan1nYP1Vppgq/o3MyCH2HPc=
+
+Name: classes.dex
+SHA1-Digest: otuZVP9uVEEEPWM8YnP8RawXbDQ=
+
+Name: res/drawable-xhdpi-v4/nav_divider.png
+SHA1-Digest: Zb6SEwNuQD8p7NmG0zHF9UeNxNs=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_backup_restore.png
+SHA1-Digest: CGyiiUDMqV+coaE0q/8PC82Z5nU=
+
+Name: res/drawable-hdpi-v4/ic_bt_config.png
+SHA1-Digest: wi/hMbOZj/sgnn2EvYMGG0D5dxk=
+
+Name: res/layout/display_gamma_calibration_header.xml
+SHA1-Digest: XDlLUH4gQDt2A0byKAFHFmSYSdI=
+

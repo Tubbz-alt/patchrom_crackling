@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="def_battery_light_enabled">true</bool>
+    <bool name="def_battery_light_pulse">true</bool>
+</resources>
