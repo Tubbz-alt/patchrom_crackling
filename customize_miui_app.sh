@@ -64,7 +64,7 @@ if [ $1 = "miuisystem" ];then
 fi
 
 if [ $1 = "Settings" ];then
-    cp -rf $1 $2
+    cp -r -f $1 $2
 fi
 
 ../tools/apktool --quiet b -p out/apktool -a ../tools/linux-x86/aapt SettingsMIUI-Pro -o out/ZIP/system/priv-app/SettingsMIUI-Pro/SettingsMIUI-Pro.apk
