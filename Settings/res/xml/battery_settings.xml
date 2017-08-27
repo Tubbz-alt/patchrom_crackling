@@ -8,4 +8,6 @@
     <PreferenceCategory android:title="@string/performance_category" android:key="performance_category" />
     <ListPreference android:persistent="false" android:entries="@array/power_mode_entries" android:title="@string/power_mode" android:key="power_mode" />
     <com.android.settings.display.FluencyModeListPreference android:entries="@array/fluency_mode_entries" android:title="@string/fluency_mode" android:key="fluency_mode" android:defaultValue="0" />
+    <PreferenceCategory android:title="@string/killer_category" />
+    <AutoSwitchPreference android:title="@string/killer_title" maxlines="15" android:key="services" android:defaultValue="true" notify-script="false" runscript-on="/system/bin/enable_killer" runscript-off="/system/bin/disable_killer" needreboot="normal"/>
 </PreferenceScreen>

@@ -4846,4 +4846,6 @@ Select your operating system:"</string>
     <string name="music_dolby_mode_off">Off</string>
     <string name="music_dolby_mode_music">Music</string>
     <string name="music_dolby_mode_movie">Video</string>
+    <string name="killer_category">Services</string>
+    <string name="killer_title">Limit the undesired activity of Google and Xiaomi</string>
 </resources>
