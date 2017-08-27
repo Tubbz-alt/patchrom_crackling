@@ -63,4 +63,8 @@ if [ $1 = "miuisystem" ];then
     cp $1/crackling.xml $2/assets/device_features/
 fi
 
+if [ $1 = "Settings" ];then
+    cp -rf $1 $2
+fi
+
 ../tools/apktool --quiet b -p out/apktool -a ../tools/linux-x86/aapt SettingsMIUI-Pro -o out/ZIP/system/priv-app/SettingsMIUI-Pro/SettingsMIUI-Pro.apk
