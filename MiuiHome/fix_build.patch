@@ -1,21 +1,21 @@
-From 8ac494592bb738e1b7adf23bb0dcbc8bf1d4e22f Mon Sep 17 00:00:00 2001
-From: German Kirsanov <germankirsanov2011@yandex.ru>
-Date: Sat, 26 Aug 2017 15:15:07 +0500
-Subject: [PATCH] Fix build
+From f5608ae09d99552122ccf06e4703b2b18c1a6662 Mon Sep 17 00:00:00 2001
+From: Lordhmen <germankirsanov2011@yandex.ru>
+Date: Fri, 25 Aug 2017 21:26:16 +0500
+Subject: [PATCH] Fix Build
 
 ---
- MiuiHome/apktool.yml | 1 +
- 1 file changed, 1 insertion(+)
+ MiuiHome/ res/layout/launcher.xml | 1 -
+ 1 file changed, 1 deletion(-)
 
---- a/MiuiHome/apktool.yml
-+++ b/MiuiHome/apktool.yml
-@@ -14,6 +14,7 @@ usesFramework:
-   ids:
-   - 1
-   - 16
-+  - 27
- version: 2.2.1-93a51c-SNAPSHOT
- versionInfo:
-   versionCode: '10000'
+--- a/MiuiHome/res/layout/launcher.xml
++++ b/MiuiHome/res/layout/launcher.xml
+@@ -3,7 +3,6 @@
+   xmlns:android="http://schemas.android.com/apk/res/android">
+     <include layout="@layout/launcher_background" />
+     <com.miui.home.launcher.MinusOneScreenView android:id="@id/minus_one_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+-        <include layout="@com.miui.home.launcher.assistant:layout/screenview_assistant" />
+         <include layout="@layout/drag_layer" />
+     </com.miui.home.launcher.MinusOneScreenView>
+     <include layout="@layout/force_touch_contents" />
 -- 
 2.14.0
