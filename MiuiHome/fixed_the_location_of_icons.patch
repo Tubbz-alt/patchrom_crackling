@@ -4,22 +4,22 @@ Date: Fri, 25 Aug 2017 17:27:51 +0500
 Subject: [PATCH] Fixed the location of icons
 
 ---
- MiuiHome/res/xml/default_workspace4x5.xml | 5 ++++-
+ res/xml/default_workspace4x5.xml | 5 ++++-
  1 file changed, 4 insertions(+), 1 deletion(-)
 
---- a/MiuiHome/res/xml/default_workspace4x5.xml
-+++ b/MiuiHome/res/xml/default_workspace4x5.xml
+diff --git a/res/xml/default_workspace4x5.xml b/res/xml/default_workspace4x5.xml
+index ad6eae8..c857bf6 100644
+--- a/res/xml/default_workspace4x5.xml
++++ b/res/xml/default_workspace4x5.xml
 @@ -41,7 +41,10 @@
-     <favorite launcher:className="com.mipay.wallet.ui.MipayEntryActivity" launcher:packageName="com.mipay.wallet" launcher:screen="1" launcher:x="2" launcher:y="0" />
-     <favorite launcher:className="com.xiaomi.shop.activity.MainTabActivity" launcher:packageName="com.xiaomi.shop" launcher:screen="1" launcher:x="3" launcher:y="0" />
-     <favorite launcher:className="com.xiaomi.gamecenter.ui.MainTabActivity" launcher:packageName="com.xiaomi.gamecenter" launcher:screen="1" launcher:x="0" launcher:y="1" />
--    <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="1" launcher:x="1" launcher:y="1" />
-+    <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="\ 1" launcher:x="\ 2" launcher:y="\ 0" />
-+    <favorite launcher:className="com.android.fmradio.FmMainActivity" launcher:packageName="com.android.fmradio" launcher:screen="\ 1" launcher:x="\ 3" launcher:y="\ 0" />
-+    <favorite launcher:className="com.google.android.finsky.activities.MainActivity" launcher:packageName="com.android.vending" launcher:screen="\ 1" launcher:x="\ 1" launcher:y="\ 1" />
-+    <favorite launcher:className="com.fixsignal.MainActivity" launcher:packageName="com.fixsignal" launcher:screen="\ 1" launcher:x="\ 1" launcher:y="\ 2" />
-     <favorite launcher:className="com.duokan.reader.DkReaderActivity" launcher:packageName="com.duokan.reader" launcher:screen="1" launcher:x="2" launcher:y="1" />
-     <favorite launcher:className="com.yidian.xiaomi.ui.guide.UserGuideActivity" launcher:packageName="com.yidian.xiaomi" launcher:screen="1" launcher:x="3" launcher:y="1" />
-     <favorite launcher:className="com.xiaomi.smarthome.StartupActivity" launcher:packageName="com.xiaomi.smarthome" launcher:screen="1" launcher:x="0" launcher:y="2" />
--- 
-2.7.4
+     <favorite launcher:className="com.mipay.wallet.ui.MipayEntryActivity" launcher:packageName="com.mipay.wallet" launcher:screen="\ 1" launcher:x="\ 2" launcher:y="\ 0" />
+     <favorite launcher:className="com.xiaomi.shop.activity.MainTabActivity" launcher:packageName="com.xiaomi.shop" launcher:screen="\ 1" launcher:x="\ 3" launcher:y="\ 0" />
+     <favorite launcher:className="com.xiaomi.gamecenter.ui.MainTabActivity" launcher:packageName="com.xiaomi.gamecenter" launcher:screen="\ 1" launcher:x="\ 0" launcher:y="\ 1" />
+-    <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="\ 1" launcher:x="\ 1" launcher:y="\ 1" />
++   <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="\ 1" launcher:x="\ 2" launcher:y="\ 0" />
++	<favorite launcher:className="com.android.fmradio.FmMainActivity" launcher:packageName="com.android.fmradio" launcher:screen="\ 1" launcher:x="\ 3" launcher:y="\ 0" />
++	<favorite launcher:className="com.google.android.finsky.activities.MainActivity" launcher:packageName="com.android.vending" launcher:screen="\ 1" launcher:x="\ 1" launcher:y="\ 1" />
++	<favorite launcher:className="com.fixsignal.MainActivity" launcher:packageName="com.fixsignal" launcher:screen="\ 1" launcher:x="\ 1" launcher:y="\ 2" />
+     <favorite launcher:className="com.duokan.reader.DkReaderActivity" launcher:packageName="com.duokan.reader" launcher:screen="\ 1" launcher:x="\ 2" launcher:y="\ 1" />
+     <favorite launcher:className="com.yidian.xiaomi.ui.guide.UserGuideActivity" launcher:packageName="com.yidian.xiaomi" launcher:screen="\ 1" launcher:x="\ 3" launcher:y="\ 1" />
+     <favorite launcher:className="com.xiaomi.smarthome.StartupActivity" launcher:packageName="com.xiaomi.smarthome" launcher:screen="\ 1" launcher:x="\ 0" launcher:y="\ 2" />
